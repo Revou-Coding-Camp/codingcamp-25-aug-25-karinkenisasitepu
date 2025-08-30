@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  background: #ff4081;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Banner */
+header {
+  text-align: center;
+  padding: 50px;
+  background: #ffe4ec;
+}
+
+/* Profile Section */
+#profile {
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+}
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.profile-box {
+  width: 30%;
+  min-width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Our Headquarter bulat */
+#headquarter {
+  padding: 40px;
+  background: #fce4ec;
+  text-align: center;
+}
+.hq-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.hq-circle {
+  text-align: center;
+}
+.hq-circle img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ff4081;
+  object-fit: cover;
+}
+.hq-circle p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Form */
+#contact {
+  padding: 40px;
+  background: #fff;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #ff4081;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #e91e63;
+}
